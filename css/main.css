@@ -19,3 +19,22 @@ nav a {
   text-decoration: none;
   width: 100%;
 }
+
+/*screen size Navigtation css */
+@media only screen and (min-width: 16px) {
+
+  .icon {
+    display: block;
+    margin: auto;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .icon {
+    display: inline-block;
+    margin: 0;
+  }
+
+}
