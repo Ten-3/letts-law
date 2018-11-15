@@ -20,6 +20,11 @@ nav a {
   width: 100%;
 }
 
+footer {
+  background-color: #F4F4F4;
+}
+
+
 /*screen size Navigtation css */
 @media only screen and (min-width: 16px) {
 
