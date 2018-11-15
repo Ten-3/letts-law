@@ -20,6 +20,7 @@ nav a {
   width: 100%;
 }
 
+/*footer css */
 footer {
   background-color: #F4F4F4;
 }
@@ -33,6 +34,10 @@ footer {
     margin: auto;
   }
 
+  .horizontal {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -40,6 +45,14 @@ footer {
   .icon {
     display: inline-block;
     margin: 0;
+  }
+
+  .toggle {
+    display: none;
+  }
+
+  .horizontal {
+    display: inline;
   }
 
 }
