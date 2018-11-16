@@ -34,6 +34,7 @@ footer {
   min-height: 30em;
 }
 
+/*this is banner content info*/
 .banner-info {
   max-width: 35em;
 }
@@ -43,12 +44,25 @@ img {
   margin: auto;
 }
 
+/* this is newletter banner --adjust the min-height-- */
 .newsletter-banner {
   background-image: url("../images/placeholder-3by1.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 15em;
+}
+
+/*div for call to action section */
+.call-to-action-section {
+  background-color: #E5E5E5;
+}
+
+/*button for contact*/
+.contact-btn {
+  background-color: #2E85FA;
+  color: #fff;
+  border: none;
 }
 
 /*screen size Navigtation css */
@@ -59,8 +73,14 @@ img {
     margin: auto;
   }
 
+/*this is horizontal navigation*/
   .horizontal {
     display: none;
+  }
+
+  .btn {
+    display: block;
+    margin: auto;
   }
 
 }
@@ -76,8 +96,23 @@ img {
     display: none;
   }
 
+/*this is horizontal navigation*/
   .horizontal {
     display: inline;
+  }
+
+  .btn {
+    display: inline-block;
+    margin: 0;
+  }
+
+  .contact-btn {
+    float: right
+  }
+
+/*this is banner button*/
+  .banner-content .contact-btn {
+    float: left;
   }
 
 }
