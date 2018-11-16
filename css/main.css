@@ -38,6 +38,18 @@ footer {
   max-width: 35em;
 }
 
+img {
+  display: block;
+  margin: auto;
+}
+
+.newsletter-banner {
+  background-image: url("../images/placeholder-3by1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 15em;
+}
 
 /*screen size Navigtation css */
 @media only screen and (min-width: 16px) {

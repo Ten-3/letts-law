@@ -9,6 +9,7 @@
   right: 15%;
   top: 65%;
   width: 15em;
+  z-index: 100;
 }
 
 .nav a {
