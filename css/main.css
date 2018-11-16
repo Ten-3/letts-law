@@ -51,6 +51,21 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 15em;
+
+  /*it set its to grayscale*/
+  -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.newsletter-heading {
+  color: #2E85FA;
+}
+
+.newsletter-banner:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 /*div for call to action section */
@@ -58,11 +73,29 @@ img {
   background-color: #E5E5E5;
 }
 
+/*default button*/
+.btn {
+  background-color: #707070;
+  color: #fff;
+  border: 0;
+}
+
+/*hover for default button*/
+.btn:hover {
+  background-color: black;
+}
+
 /*button for contact*/
 .contact-btn {
   background-color: #2E85FA;
   color: #fff;
   border: none;
+}
+
+/*hover for contact button*/
+.contact-btn:hover {
+  background-color: #fff;
+  color: #2E85FA;
 }
 
 /*screen size Navigtation css */
@@ -106,11 +139,12 @@ img {
     margin: 0;
   }
 
+/*this is contact button button*/
   .contact-btn {
     float: right
   }
 
-/*this is banner button*/
+/*this is banner contact button*/
   .banner-content .contact-btn {
     float: left;
   }
