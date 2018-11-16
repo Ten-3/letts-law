@@ -59,6 +59,7 @@ img {
     transition: .3s ease-in-out;
 }
 
+/**/
 .newsletter-heading {
   color: #2E85FA;
 }
@@ -66,6 +67,11 @@ img {
 .newsletter-banner:hover {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+
+/*this is quote banner --adjust the min-height-- */
+.quote-banner {
+ min-height: 21em;
 }
 
 /*div for call to action section */
