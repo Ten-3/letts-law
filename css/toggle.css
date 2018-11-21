@@ -16,7 +16,7 @@
   display: block;
   padding: 0.5em;
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 
 ul > li::before {
@@ -24,7 +24,7 @@ ul > li::before {
 }
 
 .nav a:hover {
-  background-color: #333;
+  background-color: #2E85FA;
   color: #fff;
 }
 
