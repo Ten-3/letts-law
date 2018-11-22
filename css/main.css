@@ -69,6 +69,11 @@ img {
   filter: grayscale(100%);
 }
 
+/*this is newletter banner --adjust the min-height-- */
+.human-rights-info-banner {
+  background-color: #E5E5E5
+}
+
 /*this is quote banner --adjust the min-height-- */
 .quote-banner {
  min-height: 21em;
