@@ -136,15 +136,6 @@ img {
     margin: 0;
   }
 
-  .toggle {
-    display: none;
-  }
-
-/*this is horizontal navigation*/
-  .horizontal {
-    display: inline;
-  }
-
   .btn {
     display: inline-block;
     margin: 0;
@@ -158,6 +149,23 @@ img {
 /*this is banner contact button*/
   .banner-content .contact-btn {
     float: left;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .toggle {
+    display: none;
+  }
+
+/*this is horizontal navigation*/
+  .horizontal {
+    display: inline-block;
+  }
+
+  nav ul {
+    text-align: right;
   }
 
 }
