@@ -91,6 +91,11 @@ img {
   border: 0;
 }
 
+/*hover for navigation*/
+nav a:hover {
+  color: #E08540;
+}
+
 /*hover for default button*/
 .btn:hover {
   background-color: black;
