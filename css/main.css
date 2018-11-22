@@ -69,8 +69,8 @@ img {
   filter: grayscale(100%);
 }
 
-/*this is newletter banner --adjust the min-height-- */
-.human-rights-info-banner {
+/*this is humand right and family right information section --adjust the min-height-- */
+.human-rights-info-banner, .family-law-info-banner {
   background-color: #E5E5E5
 }
 
