@@ -94,6 +94,7 @@ img {
 /*hover for navigation*/
 nav a:hover {
   color: #E08540;
+  transition: all .2s linear;
 }
 
 /*hover for default button*/
