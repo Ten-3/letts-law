@@ -1,7 +1,7 @@
 <ul class="list-group list-group-inline">
-  <li class="gutter-1-2"><a href="{{site.baseurl}}/index.html">Home</a></li>
-  <li class="gutter-1-2"><a href="{{site.baseurl}}/family-law/">Family Law</a></li>
-  <li class="gutter-1-2"><a href="{{site.baseurl}}/human-rights/">Human Right</a></li>
+  <li class="gutter-1-2"><a href="{{site.baseurl}}/index.html" {% if page.url  =='/' %} class="current" {% endif %}>Home</a></li>
+  <li class="gutter-1-2"><a href="{{site.baseurl}}/family-law/" {% if page.url == '/family-law/' %} class="current" {% endif %}>Family Law</a></li>
+  <li class="gutter-1-2"><a href="{{site.baseurl}}/human-rights/" {% if page.url == '/human-rights/' %} class="current" {% endif %}>Human Right</a></li>
   <li class="gutter-1-2"><a href="">Newsletter</a></li>
-  <li class="gutter-1-2"><a href="{{site.baseurl}}/contact/">Contact</a></li>
+  <li class="gutter-1-2"><a href="{{site.baseurl}}/contact/" {% if page.url == '/contact/' %} class="current" {% endif %}>Contact</a></li>
 </ul>
