@@ -1,0 +1,5 @@
+backend:
+  name: github
+  repo: ten-3/letts-law
+
+media_folder: "images/uploads"
