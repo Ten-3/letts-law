@@ -38,6 +38,14 @@ footer {
   max-width: 35em;
 }
 
+.sub-banner {
+  background-image: url("../images/placeholder-4by1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 25em;
+}
+
 img {
   display: block;
   margin: auto;
