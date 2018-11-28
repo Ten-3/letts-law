@@ -39,9 +39,14 @@ footer {
   min-height: 30em;
 }
 
+.banner-title {
+  color: white;
+}
+
 /*this is banner content info*/
 .banner-info {
   max-width: 35em;
+  color: white;
 }
 
 .sub-banner {
