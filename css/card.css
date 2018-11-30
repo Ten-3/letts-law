@@ -1,0 +1,10 @@
+.card,
+.card a {
+  text-decoration: none;
+  color: #E08540;
+}
+
+.card a:hover {
+  background-color: var(--color-primary-muted);
+  border-radius: var(--border-radius);
+}
