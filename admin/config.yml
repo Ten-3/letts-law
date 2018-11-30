@@ -24,3 +24,6 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+      - label: "Image"
+        name: "url"
+        widget: "image"
