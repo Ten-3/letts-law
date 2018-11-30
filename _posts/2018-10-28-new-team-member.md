@@ -2,7 +2,7 @@
 layout: blog-post
 title: "New team member"
 desc: "We’d like to welcome our newest team member: Tai Ruan."
-thumb: "/images/upload/placeholder-4by1.svg"
+thumb: "/images/uploads/placeholder-1by1.svg"
 
 banner: "/images/uploads/placeholder-4by1.jpg"
 ---
