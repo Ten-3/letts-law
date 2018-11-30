@@ -7,8 +7,7 @@ media_folder: "images/uploads"
 collections:
   - label: "Blog Post"
     name: "blog-post"
-    file: "_layouts/blog-post.html"
-    folder: "posts"
+    folder: "_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
