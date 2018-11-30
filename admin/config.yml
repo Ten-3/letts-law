@@ -28,5 +28,5 @@ collections:
         name: "body"
         widget: "markdown"
       - label: "Image"
-        name: "url"
+        name: "banner"
         widget: "image"
