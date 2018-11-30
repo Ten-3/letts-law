@@ -1,54 +1,21 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Letts Law website</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/css/toggle.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
-</head>
-<body>
-
-  <nav class="relative">
-    <div class="gutter-2 grid grid-middle pad-t-0">
-      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-4">
-        <a href="{{site.baseurl}}/index.html">
-          <i class="icon i-128">
-          <img src="{{site.baseurl}}/images/letts-law-logo-black.svg" alt="Letts Law Logo">
-          </i>
-        </a>
-      </div>
-
-      {% include toggle.html %}
-
-      <div class="unit xs-1 s-1 m-1-2 l-3-4 horizontal right">
-        {% include head-navigation.html %}
-      </div>
-    </div>
-  </nav>
+---
+layout: default
+---
 
   <main>
-    {{content}}
+    {% for photo in include.photos %}
+      <div class="relative embed embed-24by10">
+        <img class="img-flex embed-item" src="images/banner03.jpg" alt="">
+        </div>
+      </div>
+    {% endfor %}
 
-  </main>
+      <div class="max-length gutter-1-2 pad-t">
 
-  <footer class="gutter-2 pad-t">
-    <nav class="grid grid-middle">
-      <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
-        <a href="{{site.baseurl}}/index.html">
-          <i class="icon i-128">
-          <img src="{{site.baseurl}}/images/letts-law-logo-black.svg" alt="Letts Law Logo">
-          </i>
-        </a>
+        <h1 class="yotta push-0"></h1>
+
+        {{content}}
+
       </div>
 
-      {% include footer-nav.html %}
-    </nav>
-  </footer>
-
-</body>
-</html>
+  </main>

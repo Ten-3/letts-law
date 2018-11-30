@@ -5,10 +5,12 @@ backend:
 media_folder: "images/uploads"
 
 collections:
-    name: "website-settings"
-    label: "Website settings"
-    files:
-        - label: "Website settings"
-          name: "site"
-          file: "_data/site.yml"
-          fields:
+  - label: "Blog Post"
+    name: "blog-post"
+    folder: "posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: "Body"
+      name: "body"
+      widget: "markdown"
