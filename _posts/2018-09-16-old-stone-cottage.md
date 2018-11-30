@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: "BLOG01"
-meta: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
 thumbanil: "/images/upload/placeholder-4by1.svg"
 ---
