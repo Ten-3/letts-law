@@ -5,7 +5,7 @@ backend:
 media_folder: "images/uploads"
 
 collections:
-  - label: "Blog Post"
+  - label: "Blog posts"
     name: "blog-post"
     folder: "_posts"
     create: true
