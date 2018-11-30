@@ -1,6 +1,6 @@
 permalink: pretty
 
 collections:
-  posts:
+  blog-posts:
     output: true
     permalink: /:collection/:year/:month/:slug/
