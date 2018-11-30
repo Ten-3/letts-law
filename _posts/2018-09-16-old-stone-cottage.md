@@ -2,7 +2,7 @@
 layout: blog-post
 title: "BLOG01"
 desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-thumb: "/images/upload/placeholder-4by1.svg"
+thumb: "/images/uploads/placeholder-4by1.svg"
 
 photos:
   - url: "/images/uploads/placeholder-4by1.jpg"
