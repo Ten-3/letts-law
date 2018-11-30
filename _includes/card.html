@@ -1,13 +1,13 @@
 <link href="{{site.baseurl}}/css/card.css" rel="stylesheet">
 
-<article class="card">
+<article class="gutter text-center card">
   <a class="island" href="{{include.data.url}}">
       <div class="embed embed-4by3">
         <img class="embed-item" src="{{include.data.thumb}}" alt="">
       </div>
-    <div class="container">
-     <h3><b>{{include.data.title}}</b></h3>
-     <p>{{include.data.desc}}</p>
-   </div>
+      <div class="container gutter-1-2 ">
+       <h3 class="push-1-2 content-fill"><b>{{include.data.title}}</b></h3>
+       <p class="push-0 content-shrink">{{include.data.desc}}</p>
+     </div>
   </a>
 </article>

@@ -1,10 +1,15 @@
 .card,
 .card a {
+  border-radius: 8px;
+  display: inline-block;
+  margin: 0 .5em 1em;
+  padding: .5rem;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
   text-decoration: none;
-  color: #E08540;
 }
 
 .card a:hover {
-  background-color: var(--color-primary-muted);
-  border-radius: var(--border-radius);
+  background-color: black;
 }
