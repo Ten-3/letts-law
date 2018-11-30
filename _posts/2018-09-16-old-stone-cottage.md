@@ -4,7 +4,7 @@ title: "BLOG01"
 desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 thumb: "/images/uploads/placeholder-4by1.svg"
 
-photos:
+image:
   - url: "/images/uploads/placeholder-4by1.jpg"
 ---
 
