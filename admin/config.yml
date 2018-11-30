@@ -3,3 +3,12 @@ backend:
   repo: ten-3/letts-law
 
 media_folder: "images/uploads"
+
+collections:
+    name: "website-settings"
+    label: "Website settings"
+    files:
+        - label: "Website settings"
+          name: "site"
+          file: "_data/site.yml"
+          fields:
