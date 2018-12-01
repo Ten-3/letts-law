@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Ten-3/letts-law
 
-media_folder: "static/images/uploads"
+media_folder: "images/uploads"
 
 collections:
   - label: "Blog posts"
