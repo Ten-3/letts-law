@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: ten-3/letts-law
+  repo: https://github.com/Ten-3/letts-law
 
 media_folder: "images/uploads"
 
@@ -11,9 +11,22 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "desc", widget: "string"}
-      - {label: "Thumbnail image", name: "thumb", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Banner Image", name: "banner", widget: "image"}
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "blog-post"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Description"
+        name: "desc"
+        widget: "string"
+      - label: "Thumbnail image"
+        name: "thumb"
+        widget: "image"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+      - label: "Banner Image"
+        name: "banner"
+        widget: "image"
