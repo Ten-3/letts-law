@@ -139,15 +139,15 @@ nav a:hover {
 
 /*button for contact*/
 .contact-btn {
-  background-color: #F4F4F4;
-  color: #2E85FA;
+  background-color: #E08540;
+  color: #fff;
   border: none;
 }
 
 /*hover for contact button*/
 .contact-btn:hover {
-  background-color: #E08540;
-  color: #fff;
+  background-color: #fff;
+  color: #E08540;
   transition: all .2s linear;
 }
 
