@@ -5,6 +5,20 @@ backend:
 media_folder: "images/uploads"
 
 collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Home page"
+        name: "home"
+        file: "_data/home.yml"
+        fields:
+          - label: "Banner"
+            name: "banner"
+            widget: "object"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
   - label: "Blog posts"
     name: "blog-post"
     folder: "_posts"
