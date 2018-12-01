@@ -50,11 +50,27 @@ footer {
 }
 
 .sub-banner {
-  background-image: url("../images/placeholder-4by1.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 25em;
+}
+
+.human-rights-banner {
+  background-image: url("../images/banner-03.jpg");
+}
+
+.family-law-banner {
+  background-image: url("../images/banner-04.jpg");
+}
+
+/* this is newletter banner --adjust the min-height-- */
+.newsletter-banner {
+  background-image: url("../images/banner-05.jpg");
+}
+
+.contact-banner {
+  background-image: url("../images/banner-02.jpg");
 }
 
 img {
@@ -62,8 +78,8 @@ img {
   margin: auto;
 }
 
-/* this is newletter banner --adjust the min-height-- */
-.newsletter-banner {
+/* this is newletter seciton --adjust the min-height-- */
+.newsletter-section {
   background-image: url("../images/placeholder-3by1.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -73,7 +89,7 @@ img {
   /*it set its to grayscale*/
   -webkit-filter: grayscale(0);
     filter: grayscale(0);
-    -webkit-transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
 
@@ -82,7 +98,7 @@ img {
   color: #2E85FA;
 }
 
-.newsletter-banner:hover {
+.newsletter-section:hover {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
