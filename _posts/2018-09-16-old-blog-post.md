@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: BLOG01
+title: HI
 desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.sdfsd'
 thumb: /images/uploads/placeholder-1by1.svg
 banner: /images/uploads/placeholder-16by9.svg
