@@ -48,7 +48,7 @@ ul > li::before {
   bottom: 35%;
 }
 
-[type="checkbox"] + label::before {
+.toggle [type="checkbox"] + label::before {
   display: none;
 }
 
