@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-thumb: /images/uploads/placeholder-1by1.svg
+thumb: /images/uploads/banner-04.jpg
 title: ASSIGNMENT OF CHILD SUPPORT CLASS ACTION
 desc: >-
   Human rights lawyer Eric Letts has commenced a class action lawsuit on behalf
@@ -8,7 +8,7 @@ desc: >-
   to the Ministry of Community and Social Services or its agents.  The lawsuit
   seeks compensation to the parents and children for their diverted child
   support as well as human rights damages.
-banner: /images/uploads/placeholder-16by9.svg
+banner: /images/uploads/banner-04.jpg
 ---
 Human rights lawyer Eric Letts has commenced a class action lawsuit on behalf of all parents and children subject to an Ontario child support order assigned to the Ministry of Community and Social Services or its agents.  The lawsuit seeks compensation to the parents and children for their diverted child support as well as human rights damages.
 
