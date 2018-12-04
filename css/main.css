@@ -118,6 +118,11 @@ img {
   background-color: #E5E5E5;
 }
 
+.back-page {
+  text-decoration: none;
+  color: #43597E;
+}
+
 /*default button*/
 .btn {
   background-color: #43597E;
