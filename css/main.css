@@ -22,7 +22,7 @@ nav a {
 /*highlight current page*/
 .current {
   font-weight: bold;
-  color: #E08540;
+  color: #da973f;
 }
 
 /*footer css */
@@ -95,7 +95,7 @@ img {
 
 /**/
 .newsletter-heading {
-  color: #E08540;
+  color: #da973f;
 }
 
 .newsletter-section:hover {
@@ -144,7 +144,7 @@ nav a:hover {
 
 /*button for contact*/
 .contact-btn {
-  background-color: #E08540;
+  background-color: #da973f;
   color: #fff;
   border: none;
 }
@@ -152,7 +152,7 @@ nav a:hover {
 /*hover for contact button*/
 .contact-btn:hover {
   background-color: #fff;
-  color: #E08540;
+  color: #da973f;
   transition: all .2s linear;
 }
 

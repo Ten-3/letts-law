@@ -18,6 +18,10 @@ h1 {
   transition: .5s ease-in-out;
 }
 
+.card h3 {
+  color: #da973f;
+}
+
 .card p {
   color: #808080;
 }
