@@ -1,9 +1,11 @@
 ---
 layout: blog-post
+thumb: /images/uploads/banner-03.jpg
 title: POT AND PARENTING
-desc: 'With the changes in cannabis regulations happening on October 17, 2018 across Canada, I wanted to share some thoughts with my community.'
-thumb: /images/uploads/placeholder-1by1.svg
-banner: /images/uploads/placeholder-16by9.svg
+desc: >-
+  With the changes in cannabis regulations happening on October 17, 2018 across
+  Canada, I wanted to share some thoughts with my community.
+banner: /images/uploads/banner-03.jpg
 ---
 
 With the changes in cannabis regulations happening on October 17, 2018 across Canada, I wanted to share some thoughts with my community.
