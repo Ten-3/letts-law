@@ -57,20 +57,20 @@ footer {
 }
 
 .human-rights-banner {
-  background-image: url("../images/banner-03.jpg");
+  background-image: url("../images/human-rights-banner.jpg");
 }
 
 .family-law-banner {
-  background-image: url("../images/banner-04.jpg");
+  background-image: url("../images/family-banner.jpg");
 }
 
 /* this is newletter banner --adjust the min-height-- */
 .newsletter-banner {
-  background-image: url("../images/banner-05.jpg");
+  background-image: url("../images/newsletter-banner.jpg");
 }
 
 .contact-banner {
-  background-image: url("../images/banner-02.jpg");
+  background-image: url("../images/contact-banner.jpg");
 }
 
 img {
@@ -80,7 +80,7 @@ img {
 
 /* this is newletter seciton --adjust the min-height-- */
 .newsletter-section {
-  background-image: url("../images/placeholder-3by1.svg");
+  background-image: url("../images/newsletter-banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
