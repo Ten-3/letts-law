@@ -69,6 +69,7 @@ footer {
   background-image: url("../images/newsletter-banner.jpg");
 }
 
+/* this is contact banner --adjust the min-height-- */
 .contact-banner {
   background-image: url("../images/contact-banner.jpg");
 }
@@ -93,11 +94,11 @@ img {
   transition: .3s ease-in-out;
 }
 
-/**/
+/*this is for heading for newletter section*/
 .newsletter-heading {
   color: #da973f;
 }
-
+/*this is for newletter section*/
 .newsletter-section:hover {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
