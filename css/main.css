@@ -109,6 +109,10 @@ img {
   background-color: #E5E5E5
 }
 
+.family-section-photo, .human-rights-section-photo {
+  max-width: 300px;
+  min-width: 150px;
+}
 /*this is quote banner --adjust the min-height-- */
 .quote-banner {
  min-height: 21em;
