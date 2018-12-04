@@ -18,6 +18,14 @@ h1 {
   transition: .5s ease-in-out;
 }
 
+.card p {
+  color: #808080;
+}
+
+.card h4 {
+  color: #808080;
+}
+
 .card a:hover {
   -webkit-filter: opacity(35%);
   filter: opacity(35%);
