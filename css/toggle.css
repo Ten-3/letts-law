@@ -24,7 +24,7 @@ ul > li::before {
 }
 
 .nav a:hover {
-  background-color: #2E85FA;
+  background-color: #E08540;
   color: #fff;
   transition: all .2s linear;
 }

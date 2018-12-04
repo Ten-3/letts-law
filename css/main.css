@@ -88,9 +88,9 @@ img {
 
   /*it set its to grayscale*/
   -webkit-filter: grayscale(0);
-    filter: grayscale(0);
+  filter: grayscale(0);
   -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 /**/
@@ -120,7 +120,7 @@ img {
 
 /*default button*/
 .btn {
-  background-color: #2E85FA;
+  background-color: #43597E;
   color: #fff;
   border: 0;
 }
