@@ -116,9 +116,15 @@ img {
 
 /*div for call to action section */
 .call-to-action-section {
-  background-color: #E5E5E5;
+  background-color: #20406C;
 }
 
+/*paragraph for call to action section */
+.call-to-action-section p {
+  color: #fff;
+}
+
+/*going back page */
 .back-page {
   text-decoration: none;
   color: #43597E;
