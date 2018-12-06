@@ -29,3 +29,5 @@ ImageOptim
 ### Etc
 
  Schema
+ Netlilify
+ Jekyll

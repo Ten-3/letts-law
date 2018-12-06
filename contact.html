@@ -2,28 +2,28 @@
 layout: contact-default
 ---
 
-<main>
-  <div class="push sub-banner contact-banner embed embed-24by10 relative">
+<main itemscope itemtype="http://schema.org/ContactPage">
+  <div class="push sub-banner contact-banner embed embed-24by10 relative" itemprop="primaryImageOfPage">
     <div class="banner-content absolute pin-lb island-2 max-length w-1">
-      <h1 class="banner-title yotta push-0">Dont Wait.</h1>
-      <p class="banner-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h1 class="banner-title yotta push-0" itemprop="headline">Dont Wait.</h1>
+      <p class="banner-info" itemprop="accessibilitySummary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
   </div>
 
   <section class="pad-t-2 pad-b-2">
     <div class="max-length">
-      <h2 class="exa gutter-half">CONTACT</h2>
+      <h2 class="exa gutter-half" itemprop="alternativeHeadline">CONTACT</h2>
 
       <form class="push-0" method="POST" action="https://formspree.io/jswoon12@hotmail.com">
 
         <div class="grid">
           <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
-            <label for="name" class="push-1-8 bold">First Name</label>
+            <label for="name" class="push-1-8 bold" itemprop="name">First Name</label>
             <input id="name" name="name" required>
           </div>
 
           <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
-            <label for="last-name" class="push-1-8 bold">Last name</label>
+            <label for="last-name" class="push-1-8 bold" itemprop="name">Last name</label>
             <input id="last-name" type="text" name="last-name" required>
           </div>
         </div>

@@ -1,13 +1,13 @@
 
 <article class="text-center card">
-  <a class="" href="{{include.data.url}}">
+  <a class="" href="{{include.data.url}}" itemprop="speakable">
 
       <div class="embed embed-3by2 content-fill push">
-        <img class="embed-item" src="{{include.data.thumb}}" alt="">
+        <img class="embed-item" src="{{include.data.thumb}}" alt="Thumbnail of the article" itemprop="sharedContent">
       </div>
       <div class="container gutter-1-2 content-shrink">
-       <h3 class="push-0"><b>{{include.data.title}}</b></h3>
-       <p class="push-0 micro">{{include.data.desc}}</p>
+       <h3 class="push-0" itemprop="headline"><b>{{include.data.title}}</b></h3>
+       <p class="push-0 micro" itemprop="backstory">{{include.data.desc}}</p>
 
        <h4 class="push-0">READ MORE</h4>
      </div>
