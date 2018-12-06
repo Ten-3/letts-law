@@ -1,0 +1,31 @@
+#Team
+
+Designer and Developer: Francois Mittins, Victoria Sheen and Sungwoon Jeong
+Site:
+Github: https://github.com/sungwoonjeong
+Email: jeon0028@algonquinlive.com
+Location: Ottawa Ontario
+
+---
+
+#Thanks
+
+ Thomas Bradley's Web Dev tools
+
+---
+
+#Technology
+
+###Software
+
+Atom
+Github
+Photoshop
+Illustrator
+ImageOptim
+
+### Hosting
+
+### Etc
+
+ Schema
