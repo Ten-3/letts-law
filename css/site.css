@@ -6,4 +6,5 @@
 {% include_relative type.css %}
 {% include_relative main.css %}
 {% include_relative toggle.css %}
+{% include_relative skip-links.css %}
 {% include_relative card.css %}

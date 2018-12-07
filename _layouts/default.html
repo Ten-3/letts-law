@@ -10,7 +10,7 @@
 </head>
 <body>
 
-  <nav class="relative" itemscope itemtype="http://schema.org/ProfessionalService">
+  <nav class="relative" itemscope itemtype="http://schema.org/ProfessionalService" role="nav" id="nav" tabindex="0">
     <div class="gutter-2 grid grid-middle pad-t-0">
       <div class="unit xs-1-2 s-1-2 m-1-2 l-1-4">
         <a href="{{site.baseurl}}/index.html" itemprop="logo" itemscope itemtype="http://schema.org/URL">
@@ -22,6 +22,13 @@
 
       {% include toggle.html %}
 
+      <ul class="skip-links unit">
+        <li><a href="#nav">Skip to navigation</a></li>
+        <li><a href="#main">Skip to Main</a></li>
+        <li><a href="#contact">Skip to conatact section</a></li>
+        <li><a href="#footer">Skip to footer</a></li>
+      </ul>
+
       <div class="unit xs-1 s-1 m-1-2 l-3-4 horizontal right">
         {% include head-navigation.html %}
       </div>
@@ -32,7 +39,7 @@
     {{content}}
   </main>
 
-  <footer class="gutter-2 pad-t" itemscope itemtype="http://schema.org/Service">
+  <footer class="gutter-2 pad-t" itemscope itemtype="http://schema.org/Service" role="footer" id="footer" tabindex="0">
     <nav class="grid grid-middle">
       <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
         <a href="{{site.baseurl}}/index.html" itemprop="logo" itemscope itemtype="http://schema.org/URL">
